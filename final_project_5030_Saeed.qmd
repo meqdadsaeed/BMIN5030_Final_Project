@@ -1,0 +1,30 @@
+---
+title: "Your Title"
+subtitle: "BMIN5030 Final Project"
+author: "FirstName LastName"
+format: html
+editor: visual
+number-sections: true
+embed-resources: true
+---
+
+------------------------------------------------------------------------
+
+```{}
+```
+
+## Overview {#sec-overview}
+
+This project analyzes medication costs for glaucoma patients categorized by disease severity using retrospective clinical data. The goal is to calculate both the number of medications prescribed and total medication costs across different severity groups to understand cost burden in glaucoma management. I have discussed this with Dr. Al-Aswad, a glaucoma specialist at the Ophthalmology department about clinical aspects of glaucoma staging and cost analysis plans.
+
+## Introduction {#sec-introduction}
+
+Glaucoma is a chronic eye disease characterized by elevated intraocular pressure that can lead to irreversible vision loss if not properly managed. With approximately 80 million people affected worldwide and rising treatment costs, understanding the economic burden across different disease stages is crucial for healthcare resource allocation and treatment planning. Medication costs represent a significant portion of the overall economic burden for glaucoma patients, particularly as the disease progresses and requires more intensive therapy.This disease is affecting not only the vision of the patients but also the social and the finaincal aspect of their lives. From my discussion with Dr. Al-Aswad, I learned that glaucoma severity is typically classified using visual field testing and optic nerve assessment, with staging systems like Hodapp-Parrish-Anderson commonly used. And she empathized on the importance of standardized cost measurement methodologies and the need to account for both direct medication costs and potential indirect costs of disease progression. The intersection of clinical staging with economic analysis provides valuable insights for healthcare providers, payers, and policymakers seeking to optimize glaucoma care delivery.
+
+## Methods {#sec-methods}
+
+Data Source and ApproachThis analysis uses retrospective electronic health record data from glaucoma patients seen at a tertiary care center between 2020-2023. The methodological approach involves:Categorizing patients by disease severity using established clinical criteria Calculating medication counts and costs for each severity group Performing descriptive statistical analysis to summarize cost patternsResults
+
+## Conclusion
+
+This the conclusion. The @sec-results can be invoked here.
