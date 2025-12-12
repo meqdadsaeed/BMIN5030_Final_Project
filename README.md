@@ -1,19 +1,13 @@
 # BMIN5030 Final Project
+## Direct cost of Glaucoma Treatment and Management by Disease Severity
 
-This repository contains templates for the final written report and GitHub repository. Follow the instructions below to clone this repository, and then turn in your final project's code via a pull request to this repository.
+Overview
 
-1. To start, **fork** this BMIN503_Final_Project repository.
-1. **Clone** the forked repository to your computer.
-1. Modify the files provided, add your own, and **commit** changes to complete your final project.
-1. **Push**/sync the changes up to your GitHub account.
-1. Create a **pull request** on this, the original BMIN503_Final_Project, repository to turn in your final project.
+Glaucoma is a leading cause of irreversible vision loss worldwide and represents a growing public health issue and economic burden in the United States. Primary open-angle glaucoma (POAG), the most common subtype, is a progressive optic neuropathy that usually remains asymptomatic until significant visual field loss has occurred. And with increasing in the disease severity, the patients require more monitoring, medical and surgical interventions, all of which contribute to rising healthcare costs.
 
+Understanding how costs accumulate across mild, moderate, and severe stages of disease is essential for optimizing the allocation of resources cost-effective care delivery, and the development of personalized management strategies.
 
-Follow the instructions [here][forking] if you are unsure what the above steps mean.
-
-DUE DATE FOR FINAL VERSION: 12/12/25 11:59PM EST. This is a hard deadline. Turn in whatever you have by this date.
-
-
+This project highlights the direct medical costs associated with POAG management at a single eye center, stratified by disease severity. Through quantifying of costs related to encounter visits, medications, and procedures, this project aims to provide an insight how the costs of this disease evlove between stages as it's progress.
 <!-- Links -->
 [forking]: https://guides.github.com/activities/forking/
 
