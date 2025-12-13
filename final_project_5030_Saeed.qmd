@@ -31,7 +31,7 @@ A clearer understanding of where costs accrue across disease stages, whether dri
 
 ### Study Design and Data
 
-This project used a single center-2-year retrospective dataset for patients diagnosed with primary open-angle glaucoma (POAG). The dataset included encounter, procedure and medication records. All data were de-identified and linked unsing anodized patients ID to ensure patient privacy and confidentiality.
+This project used a single center-2-year retrospective dataset for patients diagnosed with primary open-angle glaucoma (POAG). The dataset included encounter, procedure and medication records. All data were de-identified and linked unsing anonymized patients ID to ensure patient privacy and confidentiality.
 
 ### Data Processing
 
@@ -63,7 +63,7 @@ Cost data were preprocessed within the dataset using Centers for Medicare & Medi
 
 Descriptive analyses were performed to summarize patient demographic characteristics, healthcare utilization, and costs across POAG- glaucoma severity categories. Utilization measures included the mean number of glaucoma-related encounter visits, medications, and procedures per patient. Cost measures were summarized as mean annual costs by severity level.
 
-To evaluate demographic factors associated with advanced glaucoma, a binary logistic regression model was fitted with glaucoma severity as the dependent variable. Severity was considered based on the worst-eye classification (severe vs mild/moderate). Age sex, and ethnicity were included as independent variables. Model results were reported as odds ratios (ORs) with 95% confidence intervals (CIs) and corresponding p-values.
+To evaluate demographic factors associated with advanced glaucoma, a binary logistic regression model was fitted with glaucoma severity as the dependent variable. Severity was considered based on the worst-eye classification (severe vs mild/moderate). Age, sex, and ethnicity were included as independent variables. Model results were reported as odds ratios (ORs) with 95% confidence intervals (CIs) and corresponding p-values.
 
 Model discrimination was assessed using ROC curve analysis. The area under the ROC curve -AUC- was calculated to quantify the ability of the model to distinguish between severe and non-severe glaucoma. ROC curves were generated using predicted probabilities from the logistic regression model.
 
@@ -96,7 +96,7 @@ medications <- read.csv("/Users/meqdadsaeed/Downloads/medications.csv")
 
 #### Glaucoma severity mapping and defining the severity level
 
-ICD-10 glaucoma codes for right and left eye ere mapped to numeric values, and the more advanced (Worst eye) severity was assigned as a patient level seveirty in cases were the patient has different severity levels for each eye.
+ICD-10 glaucoma codes for right and left eye are mapped to numeric values, and the more advanced (Worst eye) severity was assigned as a patient level seveirty in cases were the patient has different severity levels for each eye.
 
 ```{r}
 
@@ -164,7 +164,7 @@ Applying the inclusion and exclusion criteria
 encounters_no_other_dx <- encounters %>%
   filter(other_ocular_dx == "None")
 
-# inc
+# inclusion 
 cohort <- encounters_no_other_dx %>%
   filter(
     age >= 40,
@@ -406,7 +406,6 @@ ggplot(severity_pie,
 #Age distribution across glaucoma stages 
 
 
-
 #Violin_plot_for age and severity 
 
 ggplot(cohort,
@@ -499,7 +498,7 @@ util_by_severity <- cohort %>%
 
 ```{r}
 
-##VISUALIZATIion of medications, procuuders and encounters utilization in each severity 
+##Visulization of medications, procuders and encounters utilization in each Severity 
 
 util_long <- util_by_severity %>%
   pivot_longer(
@@ -563,7 +562,7 @@ mean_cost_by_severity
 ##### Medication costs showed the largest contribution to the total costs across all glaucoma severity levels, with increasing contribution observed towards increasing severity, as shown in the next visualization.
 
 ```{r}
-##cost_bar_visualization of accumalitive cost per severity 
+##cost_bar_visualization for accumalitive cost per severity 
 #plot_ the mean of medication, procuders, encounters in each catergory and how much it contributes to the total
 mean_cost_long <- mean_cost_by_severity %>%
   select(worst_eye_severity,
@@ -602,6 +601,8 @@ ggplot(mean_cost_long,
 ```
 
 ```{r}
+#list of medication classes shown in the patient records
+
 unique(medications$medication_class)
 
 
