@@ -662,16 +662,24 @@ plot(roc_obj,
 
 In this multivariable logistic regression model, male sex was significantly associated with increased odds of severe glaucoma (OR = 1.81, 95% CI 1.38–2.38; *p* \< 0.001). Age was positively but not significantly associated with severe disease (OR = 1.01 per year; *p* = 0.22). Ethnicity was not significantly associated with glaucoma severity, although non-Hispanic ethnicity showed a trend toward lower odds of severe disease (*p* = 0.07). The model demonstrated limited discrimination, with an AUC of 0.60.
 
-## Conclusion
+## Results and key findings 
+
+The final cohort included 1,054 patients with primary open-angle glaucoma, distributed across mild (39.6%), moderate (32.6%), and severe (27.8%) disease satge based on the  worst-eye severity. Mean age increased with more severe stages, and male patients comprised a higher proportion of those with severe disease. Healthcare utilization increased progressively with severity, with mean annual visits increasing from 3.1 in mild disease to 3.7 in severe disease, at the same time higher medication burden (1.4 vs 2.4 medications per patient) and to less extent a greater procedural utilization. Mean annual healthcare costs, which comined all direct costs also increased with severity, rising from \$1,821 for mild glaucoma to \$2,647 for severe disease. Intenstignly, the largest component of the total costs across all stages driven primarily by medication costs, and this could be explained by increasing the presciped frequincy of the eye drops and using a higher number of medications to control the disease. In multivariable logistic regression, male sex was significantly associated with increased odds of severe glaucoma (OR 1.81, 95% CI 1.38–2.38), while age showed a positive but non-significant association. Ethnicity was not significantly associated with severity. The model demonstrated limited discrimination, with an area under the ROC curve of 0.60.
+
+## **Study Contribution, Limitations, and Next Steps**
+
+This project quantifies severity specific healthcare utilization and direct medical costs among patients with primary open-angle glaucoma, showing increasing economic burden with advancing disease severity. Despite age and male sex being associated with disease severity, consistent with prior literature, reliance on single-center data and primarily demographic variables resulted in modest predictive performance of the modal and limited generalizability. More importantly, observed cost and utilization patterns underscore the importance of personalized care strategies aimed at prevent or decrease the progression to severe disease stage. Future work should use larger, multi-center, and more diverse datasets, incorporate longitudinal clinical outcomes, and evaluate medication effectiveness and value to better inform cost-effective glaucoma management.
 
 ## References
 
 -   Weinreb, R. N., Aung, T., & Medeiros, F. A. (2014). The pathophysiology and treatment of glaucoma: a review. *JAMA*, 311(18), 1901-1911. (This review states POAG is the most common form, representing 70-90% of cases).
 
+-   Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY**.** Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. *Ophthalmology.* 2014;121(11):2081–2090. doi:10.1016/j.ophtha.2014.05.013
+
 -   Vajaranant TS, Wu S, Torres M, Varma R. The changing face of primary open-angle glaucoma in the United States: demographic and geographic changes from 2011 to 2050. Am J Ophthalmol. 2012;154(2):303-314.e3. doi:10.1016/j.ajo.2012.02.024​
 
--   Rein DB, Wittenborn JS, Zhang P, et al. [The Economic Burden of Vision Loss and Blindness in the United States](https://www.aaojournal.org/article/S0161-6420(21)00710-7/fulltext). Ophthalmology. 2022;129(4):369–378. doi:10.1016/j.ophtha.2021.09.010​
+-   Rein DB, Wittenborn JS, Zhang P, et al. The Economic Burden of Vision Loss and Blindness in the United States. Ophthalmology. 2022;129(4):369–378. doi:10.1016/j.ophtha.2021.09.010​
 
--   Wittenborn JS, Gu Q, Erdem E, et al. [The Prevalence of Diagnosis of Major Eye Diseases and their Associated Payments in the Medicare Fee-for-Service Program](https://www.tandfonline.com/doi/abs/10.1080/09286586.2021.1968006?journalCode=iope20). Ophthalmic Epidemiol. Sep 16 2021:1-13. doi:10.1080/09286586.2021.1968006​
+-   Wittenborn JS, Gu Q, Erdem E, et al. The Prevalence of Diagnosis of Major Eye Diseases and their Associated Payments in the Medicare Fee-for-Service Program. Ophthalmic Epidemiol. Sep 16 2021:1-13. doi:10.1080/09286586.2021.1968006​
 
 -   Friedman DS, Wolfs RC, O'Colmain BJ, et al. Prevalence of open-angle glaucoma among adults in the United States \[published correction appears in Arch Ophthalmol. 2011 Sep;129(9):1224\]. Arch Ophthalmol. 2004;122(4):532-538. doi:10.1001/archopht.122.4.532
